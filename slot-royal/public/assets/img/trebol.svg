@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Trébol de cuatro hojas">
+  <defs>
+    <radialGradient id="leaf" cx="38%" cy="32%" r="75%">
+      <stop offset="0%" stop-color="#6cf7bf" />
+      <stop offset="55%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#054c37" />
+    </radialGradient>
+  </defs>
+  <!-- Tallo -->
+  <path d="M32 33 C33 42 34 48 30 57"
+        fill="none" stroke="#0a6b46" stroke-width="3" stroke-linecap="round" />
+  <!-- 4 hojas en forma de corazón, punta hacia el centro -->
+  <g fill="url(#leaf)" stroke="#054c37" stroke-width="1">
+    <path d="M0 0 C0 0 -9 -7 -9 -13 C-9 -16 -7 -18 -4 -18 C-2 -18 0 -16 0 -15 C0 -16 2 -18 4 -18 C7 -18 9 -16 9 -13 C9 -7 0 0 0 0 Z"
+          transform="translate(32 32) rotate(45)" />
+    <path d="M0 0 C0 0 -9 -7 -9 -13 C-9 -16 -7 -18 -4 -18 C-2 -18 0 -16 0 -15 C0 -16 2 -18 4 -18 C7 -18 9 -16 9 -13 C9 -7 0 0 0 0 Z"
+          transform="translate(32 32) rotate(135)" />
+    <path d="M0 0 C0 0 -9 -7 -9 -13 C-9 -16 -7 -18 -4 -18 C-2 -18 0 -16 0 -15 C0 -16 2 -18 4 -18 C7 -18 9 -16 9 -13 C9 -7 0 0 0 0 Z"
+          transform="translate(32 32) rotate(225)" />
+    <path d="M0 0 C0 0 -9 -7 -9 -13 C-9 -16 -7 -18 -4 -18 C-2 -18 0 -16 0 -15 C0 -16 2 -18 4 -18 C7 -18 9 -16 9 -13 C9 -7 0 0 0 0 Z"
+          transform="translate(32 32) rotate(315)" />
+  </g>
+</svg>
